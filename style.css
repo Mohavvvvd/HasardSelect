@@ -1,0 +1,73 @@
+.column {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.choix{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a9dbf8;
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.selected {
+    background-color: #114613;
+    color: white;
+}
+.selected:hover {
+    transform: scale(1.5);
+}
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    min-height: 100vh; 
+    text-align: center; 
+}
+.n{
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #1cd1f1, #1349ac);
+    color: #fff;
+    left: 15px;
+}
+input,button{
+    text-align: center;
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#choicesContainer {
+    flex-wrap: wrap;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    justify-items: center; 
+    direction: column;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    color: #14449c;
+}
